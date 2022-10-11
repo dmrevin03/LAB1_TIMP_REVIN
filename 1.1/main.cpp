@@ -3,7 +3,6 @@
 #include "modAlphaCipher.h"
 #include <locale>
 using namespace std;
-// проверка, чтобы строка состояла только из прописных букв
 bool isValid(const wstring& s)
 {
     for(auto c:s)
